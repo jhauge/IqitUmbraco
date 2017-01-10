@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IqitUmbraco</id>
+    <version>0.1.0</version>
+    <authors>Jesper Hauge</authors>
+    <owners>jesper.hauge</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/jhauge/IqitUmbraco</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sets up some helpers and base packages. Plus adds some content types and templates on first run.</description>
+    <releaseNotes>Beta - not released yet</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>umbraco package nuget</tags>
+    <dependencies>
+      <dependency id="UmbracoCms" version="7.4.0" />
+      <dependency id="UmbracoBookshelf" version=0.10.6" />
+    </dependencies>
+  </metadata>
+</package>
